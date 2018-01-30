@@ -5,7 +5,7 @@
  * Klustera
  * Adrian Santuario
  *
- * Test: https://santuario.github.io/KLUSTERA_Coca-Cola_Stores/
+ * Test: https://santuario.github.io/KLUSTERA_Televisa-Demo/
  */
 
 
@@ -23,6 +23,11 @@ var backgroundImage;
 
 // Header
 var logoHeader;
+
+// Target
+
+//var target_1;
+//var target_0;
 
 
 // Locator
@@ -72,8 +77,18 @@ var colors = [];
 
 function preload() {
   // Backgrund
-  backgroundImage = loadImage("assets/images/MapTepeyacDark.png");
+  backgroundImage = loadImage("assets/images/MapDark.png");
 
+
+  //TargetItems
+
+  for (var i = 0; i < 2; i++) {
+    var nameImage = "assets/images/target_" + i + ".png";
+    window['target_' + i] = loadImage(nameImage);
+  }
+
+  //target_0 =  loadImage("assets/images/target_0.png");
+  //target_1 =  loadImage("assets/images/target_1.png");
 
   //KeyItems
 
@@ -167,8 +182,8 @@ function initialize() {
 
 function initializeColors() {
   colors.push(color(255, 255, 255, 255)); //blanco
-  colors.push(color(220, 0, 4, 200));
-  colors.push(color(108, 59, 25, 200));
+  colors.push(color(100, 63, 89, 200));
+  colors.push(color(255, 255, 255, 200));
   colors.push(color(254, 216, 47, 200));
   colors.push(color(175, 43, 15, 200));
   colors.push(color(170, 48, 75, 200));
@@ -224,7 +239,7 @@ function drawLocator() {
     var correctionXS = (windowWidth / 2) - (locatorImage.width / 2);
     var correctionYS = (windowHeight / 2) - (locatorImage.height / 2);
   */
-  image(locatorImage, windowWidth / 2 - 5, windowHeight / 2 - 5);
+  //image(locatorImage, windowWidth / 2 - 5, windowHeight / 2 - 5);
 
 }
 
@@ -267,8 +282,8 @@ function initializePoints() {
 
 
 function drawPoints() {
-  
-   deltaX = mouseX;
+
+  deltaX = mouseX;
 
   // currentPositions.length = 0;
 
@@ -291,15 +306,15 @@ function drawPoints() {
 
     var progress = 0.0;
     var index = 0;
-    
-   
+
+
 
 
 
     if (i == 0) {
 
-      var minVal = 3 * windowWidth / 5;
-      var maxVal = 4 * windowWidth / 5;
+      var minVal = 3 * windowWidth / 9;
+      var maxVal = 8 * windowWidth / 9;
 
       if (deltaX >= minVal && deltaX < maxVal) {
         progress = map(deltaX, minVal, maxVal, 0, lines[i].length - 1);
@@ -311,8 +326,8 @@ function drawPoints() {
 
 
     } else if (i == 1) {
-      var minVal = 2 * windowWidth / 7;
-      var maxVal = 5 * windowWidth / 7;
+      var minVal = 3 * windowWidth / 9;
+      var maxVal = 8 * windowWidth / 9;
 
       if (deltaX >= minVal && deltaX < maxVal) {
         progress = map(deltaX, minVal, maxVal, 0, lines[i].length - 1);
@@ -406,6 +421,14 @@ function drawPoints() {
 
       }
 
+
+
+      if (typeof window['target_' + i] != 'undefined') {
+        image(window['target_' + i], currentPositions[i].x - 32, currentPositions[i].y - 76);
+      }
+
+
+
       ellipse(currentPositions[i].x, currentPositions[i].y, 8, 8);
 
 
@@ -456,12 +479,12 @@ function drawClock() {
   textFont(geoMidFont);
   textSize(30);
   image(logoHeader, 30, 20);
-  text("Abarrotes La Poblanita", 30, 60);
+  text("", 30, 60);
 
   //Subtitle
   textFont(geoSmallFont);
   textSize(20);
-  text("Calle Garrido 66, Villa Gustavo A. Madero, 07000, CDMX", 30, 100, (windowWidth / 2) - 50, windowHeight);
+  text("", 30, 100, (windowWidth / 2) - 50, windowHeight);
 
   //Clock
   textAlign(RIGHT, TOP);
@@ -673,7 +696,7 @@ function mouseClicked() {
   // print("MIAU");
   // print(((windowWidth / 2) - mouseX) + " :: " + mouseX + " , " + ((windowHeight / 2) - mouseY) + " :: " + mouseY);
 
-  //print(((windowWidth / 2) - mouseX) + "," + ((windowHeight / 2) - mouseY));
+  // print(((windowWidth / 2) - mouseX) + "," + ((windowHeight / 2) - mouseY));
 
 
 }
@@ -685,7 +708,7 @@ function keyPressed() {
     showPaths = !showPaths;
 
   }
-  
+
   //deltaX++;
 
   return false;

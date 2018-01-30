@@ -1,97 +1,181 @@
 line,x,y,count,key,totalLines,origin
-1,-85,-662,10,NO,5,Algarín
-1,-208,-374,10,NO,5,Algarín
-1,-254,-198,10,NO,5,Algarín
-1,-274,-29,10,NO,5,Algarín
-1,-302,34,10,YES,5,Algarín
-1,-284,45,10,NO,5,Algarín
-1,-265,31,10,NO,5,Algarín
-1,-190,-17,10,NO,5,Algarín
-1,-100,-22,10,NO,5,Algarín
-1,-84,-63,10,NO,5,Algarín
-1,-12,-37,10,NO,5,Algarín
-1,28,-20,10,NO,5,Algarín
-1,48,-70,10,NO,5,Algarín
-1,9,-86,10,NO,5,Algarín
-2,409,-664,15,NO,5,Centro Histórico
-2,124,83,15,NO,5,Centro Histórico
-2,10,40,15,NO,5,Centro Histórico
-2,22,11,15,NO,5,Centro Histórico
-2,116,39,15,NO,5,Centro Histórico
-2,120,22,15,NO,5,Centro Histórico
-2,131,11,15,NO,5,Centro Histórico
-2,127,1,15,NO,5,Centro Histórico
-2,93,1,15,NO,5,Centro Histórico
-2,65,-4,15,YES,5,Centro Histórico
-2,26,-9,15,NO,5,Centro Histórico
-2,31,-22,15,NO,5,Centro Histórico
-2,-85,-65,15,NO,5,Centro Histórico
-2,-53,-150,15,NO,5,Centro Histórico
-2,182,-64,15,NO,5,Centro Histórico
-3,-61.5,38.5,7,NO,5,GAM
-3,-49.5,9.5,7,NO,5,GAM
-3,-70.5,-2.5,7,NO,5,GAM
-3,-82.5,30.5,7,NO,5,GAM
-3,-61.5,39.5,7,NO,5,GAM
-3,-50.5,9.5,7,NO,5,GAM
-3,-71.5,-3.5,7,NO,5,GAM
-3,-82.5,29.5,7,NO,5,GAM
-3,-62.5,38.5,7,NO,5,GAM
-3,-49.5,8.5,7,NO,5,GAM
-3,-100.5,-19.5,7,NO,5,GAM
-3,-84.5,-65.5,7,NO,5,GAM
-3,29.5,-22.5,7,NO,5,GAM
-3,9.5,39.5,7,NO,5,GAM
-3,-47.5,10.5,7,NO,5,GAM
-3,-72.5,73.5,7,NO,5,GAM
-3,-97.5,67.5,7,NO,5,GAM
-3,-71.5,-1.5,7,NO,5,GAM
-3,9.5,38.5,7,NO,5,GAM
-3,28.5,-23.5,7,NO,5,GAM
-3,-46.5,-48.5,7,NO,5,GAM
-3,-56.5,-24.5,7,NO,5,GAM
-3,-62.5,-26.5,7,NO,5,GAM
-3,-92.5,-47.5,7,NO,5,GAM
-3,-101.5,-20.5,7,NO,5,GAM
-3,-49.5,9.5,7,NO,5,GAM
-4,-77,-90,5,NO,5,Telesecundaria No. 94
-4,-41,-75,5,NO,5,Telesecundaria No. 94
-4,-48,-52,5,NO,5,Telesecundaria No. 94
-4,29,-22,5,NO,5,Telesecundaria No. 94
-4,90,-181,5,NO,5,Telesecundaria No. 94
-4,273,-118,5,NO,5,Telesecundaria No. 94
-4,318,-88,5,NO,5,Telesecundaria No. 94
-4,387,-65,5,NO,5,Telesecundaria No. 94
-4,459,-44,5,NO,5,Telesecundaria No. 94
-4,478,-35,5,NO,5,Telesecundaria No. 94
-4,503,-35,5,NO,5,Telesecundaria No. 94
-4,542,-6,5,NO,5,Telesecundaria No. 94
-4,267,349,5,NO,5,Telesecundaria No. 94
-4,367,449,5,NO,5,Telesecundaria No. 94
-4,1367,449,5,NO,5,Telesecundaria No. 94
-4,367,449,5,NO,5,Telesecundaria No. 94
-4,267,349,5,NO,5,Telesecundaria No. 94
-4,364,222,5,NO,5,Telesecundaria No. 94
-4,173,142,5,NO,5,Telesecundaria No. 94
-4,201,65,5,NO,5,Telesecundaria No. 94
-4,52,19,5,NO,5,Telesecundaria No. 94
-4,41,48,5,NO,5,Telesecundaria No. 94
-4,8,35,5,NO,5,Telesecundaria No. 94
-4,27,-24,5,NO,5,Telesecundaria No. 94
-4,-48,-54,5,NO,5,Telesecundaria No. 94
-4,-32,-100,5,NO,5,Telesecundaria No. 94
-5,-5,-170,12,NO,5,UNAM
-5,36,-152,12,NO,5,UNAM
-5,-6,-37,12,NO,5,UNAM
-5,28,-22,12,NO,5,UNAM
-5,8,38,12,NO,5,UNAM
-5,123,83,12,NO,5,UNAM
-5,207,-134,12,NO,5,UNAM
-5,275,-117,12,NO,5,UNAM
-5,317,-89,12,NO,5,UNAM
-5,462,-43,12,NO,5,UNAM
-5,477,-35,12,NO,5,UNAM
-5,504,-35,12,NO,5,UNAM
-5,542,-5,12,NO,5,UNAM
-5,605,-89,12,NO,5,UNAM
-5,705,-100,12,NO,5,UNAM
+1,-275,409,1,NO,2,Juárez
+1,-275,409,1,NO,2,Juárez
+1,-275,409,1,NO,2,Juárez
+1,-275,409,1,NO,2,Juárez
+1,-275,409,1,NO,2,Juárez
+1,-275,409,1,NO,2,Juárez
+1,-260,415,1,NO,2,Juárez
+1,-254,415,1,NO,2,Juárez
+1,-264,456,1,NO,2,Juárez
+1,-121,490,1,NO,2,Juárez
+1,-95,365,1,NO,2,Juárez
+1,-44,133,1,NO,2,Juárez
+1,-19,9,1,NO,2,Juárez
+1,-2,-41,1,NO,2,Juárez
+1,6,-111,1,NO,2,Juárez
+1,32,-196,1,NO,2,Juárez
+1,81,-334,1,NO,2,Juárez
+1,147,-508,1,NO,2,Juárez
+1,384,-568,1,NO,2,Juárez
+1,417,-575,1,NO,2,Juárez
+1,431,-559,1,NO,2,Juárez
+1,450,-562,1,NO,2,Juárez
+1,459,-576,1,NO,2,Juárez
+1,520,-594,1,NO,2,Juárez
+1,566,-608,1,NO,2,Juárez
+1,661,-627,1,NO,2,Juárez
+1,698,-543,1,NO,2,Juárez
+1,692,-527,1,NO,2,Juárez
+1,700,-520,1,NO,2,Juárez
+1,711,-518,1,NO,2,Juárez
+1,730,-478,1,NO,2,Juárez
+1,772,-499,1,NO,2,Juárez
+1,780,-482,1,NO,2,Juárez
+1,780,-482,1,NO,2,Juárez
+1,780,-482,1,NO,2,Juárez
+1,780,-482,1,NO,2,Juárez
+1,780,-482,1,NO,2,Juárez
+1,780,-482,1,NO,2,Juárez
+1,780,-482,1,NO,2,Juárez
+1,780,-482,1,NO,2,Juárez
+1,780,-482,1,NO,2,Juárez
+1,780,-482,1,NO,2,Juárez
+1,780,-482,1,NO,2,Juárez
+1,780,-482,1,NO,2,Juárez
+1,780,-482,1,NO,2,Juárez
+1,780,-482,1,NO,2,Juárez
+1,788,-455,1,NO,2,Juárez
+1,748,-440,1,NO,2,Juárez
+1,791,-458,1,NO,2,Juárez
+1,783,-482,1,NO,2,Juárez
+1,772,-497,1,NO,2,Juárez
+1,669,-446,1,NO,2,Juárez
+1,691,-405,1,NO,2,Juárez
+1,793,-454,1,NO,2,Juárez
+1,781,-481,1,NO,2,Juárez
+1,739,-565,1,NO,2,Juárez
+1,708,-549,1,NO,2,Juárez
+1,599,-491,1,NO,2,Juárez
+1,569,-496,1,NO,2,Juárez
+1,557,-481,1,NO,2,Juárez
+1,551,-469,1,NO,2,Juárez
+1,469,-430,1,NO,2,Juárez
+1,452,-430,1,NO,2,Juárez
+1,437,-413,1,NO,2,Juárez
+1,364,-376,1,YES,2,Juárez
+1,349,-371,1,NO,2,Juárez
+1,320,-318,1,NO,2,Juárez
+1,283,-234,1,NO,2,Juárez
+1,207,-57,1,NO,2,Juárez
+1,179,28,1,NO,2,Juárez
+1,169,70,1,NO,2,Juárez
+1,132,163,1,NO,2,Juárez
+1,89,419,1,NO,2,Juárez
+1,-92,362,1,NO,2,Juárez
+1,-236,320,1,NO,2,Juárez
+1,-324,280,1,NO,2,Juárez
+1,-327,364,1,NO,2,Juárez
+1,-286,373,1,NO,2,Juárez
+1,-285,392,1,NO,2,Juárez
+1,-274,407,1,NO,2,Juárez
+1,-274,407,1,NO,2,Juárez
+1,-274,407,1,NO,2,Juárez
+1,-274,407,1,NO,2,Juárez
+1,-274,407,1,NO,2,Juárez
+1,-274,407,1,NO,2,Juárez
+1,-274,407,1,NO,2,Juárez
+1,-274,407,1,NO,2,Juárez
+1,-274,407,1,NO,2,Juárez
+1,-274,407,1,NO,2,Juárez
+1,-274,407,1,NO,2,Juárez
+2,319,392,1,NO,2,Centro Histórico
+2,319,392,1,NO,2,Centro Histórico
+2,319,392,1,NO,2,Centro Histórico
+2,319,392,1,NO,2,Centro Histórico
+2,319,392,1,NO,2,Centro Histórico
+2,319,392,1,NO,2,Centro Histórico
+2,319,378,1,NO,2,Centro Histórico
+2,287,372,1,NO,2,Centro Histórico
+2,290,358,1,NO,2,Centro Histórico
+2,323,360,1,NO,2,Centro Histórico
+2,331,321,1,NO,2,Centro Histórico
+2,342,259,1,NO,2,Centro Histórico
+2,350,204,1,NO,2,Centro Histórico
+2,495,231,1,NO,2,Centro Histórico
+2,530,74,1,NO,2,Centro Histórico
+2,496,54,1,NO,2,Centro Histórico
+2,460,44,1,NO,2,Centro Histórico
+2,427,35,1,NO,2,Centro Histórico
+2,362,10,1,NO,2,Centro Histórico
+2,274,-27,1,NO,2,Centro Histórico
+2,211,-59,1,NO,2,Centro Histórico
+2,145,-87,1,NO,2,Centro Histórico
+2,11,-119,1,NO,2,Centro Histórico
+2,-50,-131,1,NO,2,Centro Histórico
+2,-156,-146,1,NO,2,Centro Histórico
+2,-256,-171,1,NO,2,Centro Histórico
+2,-260,-145,1,NO,2,Centro Histórico
+2,-212,-134,1,NO,2,Centro Histórico
+2,-160,-120,1,NO,2,Centro Histórico
+2,-149,-155,1,NO,2,Centro Histórico
+2,-158,-158,1,NO,2,Centro Histórico
+2,-153,-184,1,NO,2,Centro Histórico
+2,-117,-190,1,NO,2,Centro Histórico
+2,-112,-213,1,NO,2,Centro Histórico
+2,-146,-221,1,NO,2,Centro Histórico
+2,-151,-184,1,NO,2,Centro Histórico
+2,-155,-158,1,NO,2,Centro Histórico
+2,-183,-164,1,NO,2,Centro Histórico
+2,-185,-148,1,NO,2,Centro Histórico
+2,-257,-161,1,NO,2,Centro Histórico
+2,-257,-172,1,NO,2,Centro Histórico
+2,-336,-189,1,NO,2,Centro Histórico
+2,-333,-226,1,NO,2,Centro Histórico
+2,-296,-223,1,NO,2,Centro Histórico
+2,-304,-180,1,NO,2,Centro Histórico
+2,-262,-173,1,NO,2,Centro Histórico
+2,-186,-162,1,NO,2,Centro Histórico
+2,-186,-150,1,NO,2,Centro Histórico
+2,-65,-125,1,NO,2,Centro Histórico
+2,25,-184,1,NO,2,Centro Histórico
+2,170,-260,1,NO,2,Centro Histórico
+2,187,-260,1,NO,2,Centro Histórico
+2,200,-274,1,NO,2,Centro Histórico
+2,335,-334,1,NO,2,Centro Histórico
+2,447,-395,1,NO,2,Centro Histórico
+2,467,-395,1,NO,2,Centro Histórico
+2,479,-410,1,NO,2,Centro Histórico
+2,476,-424,1,NO,2,Centro Histórico
+2,452,-427,1,NO,2,Centro Histórico
+2,442,-410,1,NO,2,Centro Histórico
+2,387,-386,1,NO,2,Centro Histórico
+2,383,-401,1,NO,2,Centro Histórico
+2,387,-390,1,NO,2,Centro Histórico
+2,355,-371,1,NO,2,Centro Histórico
+2,364,-376,1,NO,2,Centro Histórico
+2,349,-371,1,NO,2,Centro Histórico
+2,320,-318,1,NO,2,Centro Histórico
+2,283,-234,1,NO,2,Centro Histórico
+2,207,-57,1,NO,2,Centro Histórico
+2,179,28,1,NO,2,Centro Histórico
+2,169,70,1,NO,2,Centro Histórico
+2,132,163,1,NO,2,Centro Histórico
+2,89,419,1,NO,2,Centro Histórico
+2,-92,362,1,NO,2,Centro Histórico
+2,-236,320,1,NO,2,Centro Histórico
+2,-324,280,1,NO,2,Centro Histórico
+2,-327,364,1,NO,2,Centro Histórico
+2,-286,373,1,NO,2,Centro Histórico
+2,-285,392,1,NO,2,Centro Histórico
+2,-274,407,1,NO,2,Centro Histórico
+2,-254,415,1,NO,2,Centro Histórico
+2,-265,455,1,NO,2,Centro Histórico
+2,-120,488,1,NO,2,Centro Histórico
+2,-91,362,1,NO,2,Centro Histórico
+2,-46,134,1,NO,2,Centro Histórico
+2,420,214,1,NO,2,Centro Histórico
+2,400,333,1,NO,2,Centro Histórico
+2,388,392,1,NO,2,Centro Histórico
+2,321,379,1,NO,2,Centro Histórico
+2,319,390,1,NO,2,Centro Histórico
