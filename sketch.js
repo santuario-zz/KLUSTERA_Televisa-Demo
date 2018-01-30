@@ -87,8 +87,18 @@ function preload() {
     window['target_' + i] = loadImage(nameImage);
   }
 
-  //target_0 =  loadImage("assets/images/target_0.png");
-  //target_1 =  loadImage("assets/images/target_1.png");
+
+
+
+
+  //KeyPointsOver
+
+  for (var i = 0; i < 16; i++) {
+    var nameImage = "assets/images/KeyPointsOver_" + i + "_0.png";
+    window['KeyPointsOver_' + i + "_0"] = loadImage(nameImage);
+  }
+
+
 
   //KeyItems
 
@@ -141,6 +151,7 @@ function draw() {
   drawKeyPoints();
   drawClock();
   drawItems();
+  drawKeyPointsOver();
 
 
 
@@ -169,6 +180,7 @@ function initialize() {
   initializeClock();
   initializeKeyPoints();
   initializeItems();
+  initializeKeyPointsOver();
 
 }
 
@@ -283,7 +295,7 @@ function initializePoints() {
 
 function drawPoints() {
 
-  deltaX = mouseX;
+  //deltaX = mouseX;
 
   // currentPositions.length = 0;
 
@@ -529,6 +541,68 @@ function drawClock() {
 }
 
 
+/*
+ *****************************************
+ *****************************************
+ * KEYPOINTS OVER METHODS
+ *****************************************
+ *****************************************
+ */
+
+function initializeKeyPointsOver() {
+
+}
+
+
+function drawKeyPointsOver() {
+
+
+
+  var correctionXS = (windowWidth / 2) - (backgroundImage.width / 2);
+  var correctionYS = (windowHeight / 2) - (backgroundImage.height / 2);
+
+
+
+
+
+
+  if (deltaX == 0) {
+    image(window['KeyPointsOver_' + "0" + "_0"], correctionXS, correctionYS);
+  } else if (deltaX >= 533 && deltaX <= 543) {
+    image(window['KeyPointsOver_' + "1" + "_0"], correctionXS, correctionYS);
+  } else if (deltaX >= 610 && deltaX <= 620) {
+    image(window['KeyPointsOver_' + "2" + "_0"], correctionXS, correctionYS);
+  } else if (deltaX >= 834 && deltaX <= 844) {
+    image(window['KeyPointsOver_' + "3" + "_0"], correctionXS, correctionYS);
+  } else if (deltaX >= 854 && deltaX <= 864) {
+    image(window['KeyPointsOver_' + "4" + "_0"], correctionXS, correctionYS);
+  } else if (deltaX >= 897 && deltaX <= 907) {
+    image(window['KeyPointsOver_' + "5" + "_0"], correctionXS, correctionYS);
+  } else if (deltaX >= 937 && deltaX <= 947) {
+    image(window['KeyPointsOver_' + "6" + "_0"], correctionXS, correctionYS);
+  } else if (deltaX >= 1136 && deltaX <= 1146) {
+    image(window['KeyPointsOver_' + "7" + "_0"], correctionXS, correctionYS);
+  } else if (deltaX >= 1161 && deltaX <= 1171) {
+    image(window['KeyPointsOver_' + "8" + "_0"], correctionXS, correctionYS);
+  } else if (deltaX >= 1256 && deltaX <= 1266) {
+    image(window['KeyPointsOver_' + "9" + "_0"], correctionXS, correctionYS);
+  } else if (deltaX >= 1336 && deltaX <= 1346) {
+    image(window['KeyPointsOver_' + "10" + "_0"], correctionXS, correctionYS);
+  } else if (deltaX >= 1358 && deltaX <= 1368) {
+    image(window['KeyPointsOver_' + "11" + "_0"], correctionXS, correctionYS);
+  } else if (deltaX >= 1407 && deltaX <= 1417) {
+    image(window['KeyPointsOver_' + "12" + "_0"], correctionXS, correctionYS);
+  } else if (deltaX >= 1562 && deltaX <= 1572) {
+    image(window['KeyPointsOver_' + "13" + "_0"], correctionXS, correctionYS);
+  } else if (deltaX >= 1760 && deltaX <= 1770) {
+    image(window['KeyPointsOver_' + "14" + "_0"], correctionXS, correctionYS);
+  } else if (deltaX >= 1910 && deltaX <= 1920) {
+    image(window['KeyPointsOver_' + "15" + "_0"], correctionXS, correctionYS);
+  }
+
+
+
+}
 
 
 /*
@@ -707,9 +781,12 @@ function keyPressed() {
     // SPACE
     showPaths = !showPaths;
 
+  } else {
+    deltaX++;
   }
 
-  //deltaX++;
+  print(deltaX);
+
 
   return false;
 }
